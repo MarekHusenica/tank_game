@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/TankGame.dir/src/main.cpp.o CMakeFiles/TankGame.dir/thirdparty/glad/src/glad.c.o -o TankGame  /usr/lib/x86_64-linux-gnu/libSDL2.so -lGL 
