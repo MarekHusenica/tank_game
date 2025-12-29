@@ -1,3 +1,0 @@
-/mnt/c/Users/marek_main/Documents/personal/tank_game/build/CMakeFiles/TankGame.dir
-/mnt/c/Users/marek_main/Documents/personal/tank_game/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/marek_main/Documents/personal/tank_game/build/CMakeFiles/rebuild_cache.dir
