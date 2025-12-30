@@ -4,7 +4,7 @@
 Tank::Tank(glm::vec3 position, float rotation) {
     this->position = position;
     this->rotation = rotation;
-    this->scale = glm::vec3(0.5f, 0.8f, 1.0f);
+    this->scale = glm::vec3(0.8f, 0.5f, 1.0f);
 }
 
 void Tank::draw(Shader& shader) {
@@ -20,6 +20,7 @@ void Tank::draw(Shader& shader) {
 }
 
 void Tank::update(float deltaTime) {
+    rotation += rotationSpeed;
     float vx = cos(glm::radians(rotation)) * maxSpeed * deltaTime;
     float vy = sin(glm::radians(rotation)) * maxSpeed * deltaTime;
     position.x += vx;

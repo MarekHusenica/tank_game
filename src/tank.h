@@ -8,8 +8,8 @@
 
 class Tank {
 public:
-    const float maxSpeed = 1;
-    const float rotationSpeed = 1;
+    const float maxSpeed = 0.5f;
+    const float rotationSpeed = 0.1f;
 
     Tank(glm::vec3 position, float rotation);
 

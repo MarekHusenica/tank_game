@@ -17,7 +17,8 @@ FetchContent_MakeAvailable(glm)
 # --- 3. Define Executable ---
 add_executable(TankGame
     src/main.cpp
-    src/Shader.cpp 
+    src/shader.cpp 
+    src/tank.cpp
     thirdparty/glad/src/glad.c
 )
 
